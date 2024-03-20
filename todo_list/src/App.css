@@ -1,15 +1,19 @@
 h1 {
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
+  
   }
 
   body {
-    background: grey
+    background-image: url('piensa.png'); 
+        background-size: cover; 
+        background-repeat: no-repeat;
   }
   #todo-list {
     width: 500px;
     margin: 60px auto;
+    background-color: rgb(228, 201, 167);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
   }
   form, .todo {
     border: 1px solid rgb(15, 26, 61);
@@ -33,12 +37,15 @@ h1 {
     
   button {
     font-size: 16px;
-    background-color: rgb(62, 138, 151);
+    background-color: rgb(15, 93, 9);
     color: #fff;
     border-radius: 8px;
     border: none;
     padding: 8px 16px;
     cursor: pointer;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+
   }
   button:hover {
     background-color: rgb(173, 47, 28);
@@ -57,6 +64,7 @@ h1 {
   }
   .todo-text input {
     padding: 4px;
+    
   }
   .todo-text {
     font-size: 24px;
@@ -64,17 +72,22 @@ h1 {
     margin-bottom: 1cm;
     display: flex;
     align-self: center;
+    
+  
   }
   .todo-completed {
     display: flex;
     margin: 10px 0;
+    
   }
   .todo-actions {
     display: flex;
     justify-content: space-between;
+    
   }
 
   #completed {
     margin-left: 15px;
+    
   }
 
